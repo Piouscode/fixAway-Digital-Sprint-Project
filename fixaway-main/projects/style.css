@@ -1,0 +1,500 @@
+*/**,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+**/
+
+
+
+
+  
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap");
+  
+  font-family: "Roboto Serif", serif;
+  font-family: "Oswald", sans-serif;
+  
+  /*******************************************************************/
+  /*      General Style       */
+  /*******************************************************************/
+  
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  /* @media only screen and (max-width: 75em) {
+    html {
+      font-size: 56.25%;
+    }
+  }
+  @media only screen and (max-width: 56.25em) {
+    html {
+      font-size: 50%;
+    }
+  }
+  @media only screen and (min-width: 112.5em) {
+    html {
+      font-size: 75%;
+    }
+  } */
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: "Roboto Serif", serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+  }
+  
+  
+  /***** header *****/
+  
+  .o-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+    background-image: url(https://fixaway.co/svg/Stripes_with_bottom.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+  }
+  
+  .f-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 11rem;
+    /* position: fixed; */
+    height: auto;
+    z-index: 45;
+  }
+  
+  .header__accessibility__lang-switcher {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    object-position: center;
+    margin-right: 3rem;
+    margin-top: 6rem;
+    font-family: 'Oswald';
+  }
+  
+  .header__accessibility__lang-switcher-item {
+    display: block;
+    box-sizing: border-box;
+    float: none;
+    text-decoration: none;
+    line-height: 2.4rem;
+    position: relative;
+    z-index: 11;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* .header__btn__login {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem;
+    line-height: 0.875rem;
+    font-size: large;
+    font-family: "Roboto Serif", serif, "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  } */
+  
+  .header__navmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    border: none;
+  
+  }
+  
+  .home-btn-link,
+  .about-btn-link,
+  .contacts-btn-link,
+  .projects-btn-link,
+  .login-btn-link {
+    font-family: "Roboto Serif", serif, "Arial Narrow", Arial, sans-serif;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    overflow: hidden;
+  }
+  
+  .language-link-dutch,
+  .language-link-english,
+  .language-link-german,
+  .language-link-french {
+    font-family: 'Oswald';
+    font-size: large;
+    font-weight: normal;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul {
+  
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+  /* .navigation {
+    flex-grow: 1;
+    list-style: none;
+  } */
+  
+  .header__list--item-navigation {
+    padding: 1rem 5rem;
+    margin-top: 4rem;
+  }
+  
+  .header__list--item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin-left: 10rem;
+    margin-right: 1.5rem; */
+    list-style-type: none;
+  }
+  
+  .navigationContainer {
+    box-sizing: border-box;
+  }
+  
+  
+  ul:hover a:hover {
+    display: block;
+    background-color: #fff;
+    color: #ff6633;
+    /* padding: 0.5rem 0.5rem; */
+  }
+  
+  
+  
+  
+  /***** section positioning *****/
+  
+  .SectionContainer1{
+    display: flex;
+    justify-content: space-evenly;
+
+   
+
+  }
+
+  .SectionContainer2{
+    display: flex;
+   justify-content: space-evenly;
+   
+
+    
+    
+  }
+  
+
+ .SectionContainer1
+ .Section-1A
+ .Section-1AB
+ .Sidewalk
+ p{
+  text-align: left;
+  align-items: center;
+ 
+ }
+
+ .SectionContainer1
+ .Section-1B
+ .Section-1BC
+ .BrokenBikePath
+ p{
+  text-align: left;
+  align-items: center;
+  
+ }
+
+ .SectionContainer2
+ .Section-2A
+ .Section-2AB
+ .LackOfBikePaths
+ p{
+  text-align: left;
+  align-items: center;
+  
+ }
+
+ .SectionContainer2
+ .Section-2B
+ .Section-2BC
+ .HardForWheelchairs
+ p{
+  text-align: left;
+  align-items: center;
+  
+ }
+
+
+
+
+  /***** text style and colors*****/
+  
+  
+      
+  
+  h2 {
+      font-family: 'Oswald', sans-serif;
+      color: #33CCFF;
+      text-align: center;
+      font-size: xx-large;
+  }
+        
+  
+  .html p{
+      font-family: 'Roboto Serif', serif;
+  
+  }
+  
+  
+
+  h4 {
+
+    display: inline;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: large;
+    background-color: #ff6633;
+    color: #fff;
+    z-index: 9999;
+    
+  }
+
+  .fixed
+  h4{
+    display: inline;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    background-color: #33CCFF;
+    color: #fff;
+    z-index: 9999;
+    max-width: 9rem;
+  }
+
+
+  .what
+  p{
+    color: #ff6633;
+  }
+
+  
+/***** share button *****/
+
+
+.share{
+  max-width: 8rem;
+  padding-left: 35rem;
+
+}
+  
+  
+  /***** fixaway style and colors*****/
+  
+  .reference__primary-section-title-main {
+    display: inline-block;
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    background-color: #ff6633;
+    color: #fff;
+    margin-left: 46vw;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1.5rem;
+    
+  }
+
+  .reference__primary-section-title-sub {
+    display: block;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #33ccff;
+    letter-spacing: 0.1rem;
+    animation-name: moveInRight;
+    animation: 1s ease-out;
+  }
+
+
+
+
+  
+  /***** footer *****/
+  
+  .information-container-flex {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    
+      /* position: relative;
+      text-align: center; */
+    }
+    
+    .information-container-flex-paragraph {
+      font-size: large;
+      font-family: "Roboto Serif", serif, Arial, sans-serif;
+      text-align: left;
+      margin-left: 2rem;
+    }
+    
+    .fix {
+        text-align: center;
+        font-size: large;
+        font-family: "Roboto Serif", serif;
+        margin-top: 10rem;
+        margin-bottom: 15rem;
+    }
+    .colorRed {
+      color: #ff6633;
+      text-decoration: underline;
+    }
+    
+    .copyright-bar {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      justify-items: center;
+      padding: 1rem;
+      margin-top: 4rem;
+      /* margin-bottom: 0.4rem; */
+      z-index: auto;
+    }
+    
+    .footer__copyright-bar__list--item {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      margin-left: 1rem;
+      margin-right: 1.5rem;
+      margin-bottom: auto;
+      list-style-type: none;
+      color: white;
+      font-family: "Roboto Serif", serif, "Arial Narrow", Arial, sans-serif;
+    }
+    
+    .footer-btn-link {
+      color: white;
+    }
+
+/*******************************************************************/
+/*      footer Social Media      */
+/*******************************************************************/
+.fa {
+      display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: x-large;
+    text-rendering: auto;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa-facebook {
+  position: absolute;
+}
+
+.fa-instagram {
+  position: absolute;
+  margin-left: 3rem;
+}
+
+.fa-rss {
+  position: absolute;
+  margin-left: 7rem;
+}
+
+/***** buttons *****/
+    
+    .privacy-btn-link {
+      font-size: large;
+      padding: 0 1rem;
+      /* margin-top: 3.5rem; */
+      /* margin-bottom: auto; */
+      color: white;
+    }
+    
+    .terms-btn-link {
+      border-left: 2px solid rgba(204, 204, 204, 0.643);
+      font-size: large;
+      padding: 0 1rem;
+      /* margin-top: 3.5rem; */
+      /* margin-bottom: auto; */
+      color: white;
+    }
+    
+    .cookies-btn-link {
+      border-left: 2px solid rgba(204, 204, 204, 0.643);
+      font-size: large;
+      padding: 0 1rem;
+      /* margin-top: 3.5rem; */
+      /* margin-bottom: auto; */
+      color: white;
+    }
+    
+    .footer__li__copyright-bar__list--item {
+      padding: 0 1rem;
+      margin-top: 4rem;
+      margin-bottom: auto;
+    }
+    
+    .fixawayParagraph {
+      font-size: large;
+      color: white;
+      margin-top: 5.5rem;
+      margin-left: 1rem;
+      /* margin-bottom: auto; */
+      font-family: "Roboto Serif", serif, "Arial Narrow", Arial, sans-serif;
+    }
+    
+    .footer__copyright-bar {
+      object-position: center;
+    }
+    
+    .footer {
+      background-image: url(https://fixaway.co/svg/Stripes_with_bottom.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+
+
+    /***** ongoing sticker *****/
+
+
